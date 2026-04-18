@@ -77,8 +77,3 @@ if st.checkbox("查看歷史記錄"):
         st.dataframe(pd.read_csv('sentence_records.csv').tail(10))
     else:
         st.write("目前還沒有紀錄喔！")
-
-st.divider()
-if st.checkbox("查看歷史記錄"):
-    if os.path.isfile('sentence_records.csv'):
-        st.dataframe(pd.read_csv('sentence_records.csv').tail(10))
