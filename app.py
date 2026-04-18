@@ -7,13 +7,20 @@ import json
 
 # --- 1. 從 Folder 讀取字庫的函數 ---
 def load_vocab():
-    json_path = os.path.join('data', 'words.json')
-    try:
-        with open(json_path, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    except FileNotFoundError:
-        # 如果找不到檔案，給一個預設值，避免程式崩潰
-        return {"P3": [{"word": "檔案遺失", "hint": "請檢查 data 資料夾"}], "P6": []}
+    # 嘗試三個可能出現檔案嘅路徑
+    possible_paths = [
+        os.path.join('data', 'words.json'),       # 標準路徑
+        'words.json',                             # 萬一你放咗喺最外面
+        os.path.join('data', 'data', 'words.json') # 萬一資料夾重疊咗
+    ]
+    
+    for path in possible_paths:
+        if os.path.exists(path):
+            with open(path, 'r', encoding='utf-8') as f:
+                return json.load(f)
+    
+    # 如果全部都搵唔到，先會出「檔案遺失」
+    return {"P3": [{"word": "檔案遺失", "hint": "請檢查 GitHub 路徑"}], "P6": []}
 
 # --- 2. 儲存紀錄的函數 ---
 def save_record(level, word, sentence):
