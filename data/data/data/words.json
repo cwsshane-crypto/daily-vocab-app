@@ -1,0 +1,50 @@
+{
+  "P3": [
+    {"word": "愉快", "hint": "形容心情快意、舒暢。"},
+    {"word": "練習", "hint": "反覆學習，以求熟練。"},
+    {"word": "勇敢", "hint": "有勇氣，果敢不退縮。"},
+    {"word": "幫忙", "hint": "替人出力、出主意或給予物質協助。"},
+    {"word": "整齊", "hint": "有條理、不雜亂。"},
+    {"word": "Healthy", "hint": "In good physical or mental condition."},
+    {"word": "Favorite", "hint": "Liked more than others."},
+    {"word": "Together", "hint": "With each other."},
+    {"word": "Library", "hint": "A place where books are kept."},
+    {"word": "Careful", "hint": "Avoiding danger or mistakes."}
+  ],
+  "P4": [
+    {"word": "興高采烈", "hint": "形容興致勃勃，情緒高昂。"},
+    {"word": "得意洋洋", "hint": "形容十分得意的樣子。"},
+    {"word": "保護", "hint": "盡力照顧，使不受損害。"},
+    {"word": "珍惜", "hint": "珍重愛惜。"},
+    {"word": "觀察", "hint": "仔細察看。"},
+    {"word": "Excited", "hint": "Feeling very happy and enthusiastic."},
+    {"word": "Environment", "hint": "The natural world around us."},
+    {"word": "Knowledge", "hint": "Information and skills gained through experience."},
+    {"word": "Dangerous", "hint": "Likely to cause harm or injury."},
+    {"word": "Believe", "hint": "To think that something is true."}
+  ],
+  "P5": [
+    {"word": "刻苦耐勞", "hint": "工作勤奮，經受得住艱苦。"},
+    {"word": "持之以恆", "hint": "長久堅持下去。"},
+    {"word": "恍然大悟", "hint": "心裡忽然明白。"},
+    {"word": "千變萬化", "hint": "形容變化無窮。"},
+    {"word": "目不轉睛", "hint": "凝神注視，眼珠一動不動。"},
+    {"word": "Traditional", "hint": "Existing in or as part of a tradition."},
+    {"word": "Encourage", "hint": "Give support, confidence, or hope to someone."},
+    {"word": "Pollution", "hint": "Harmful substances in the environment."},
+    {"word": "Discovery", "hint": "The act of finding something for the first time."},
+    {"word": "Experience", "hint": "Knowledge or skill from doing things."}
+  ],
+  "P6": [
+    {"word": "鍥而不捨", "hint": "比喻有恆心，堅持不懈。"},
+    {"word": "豁然開朗", "hint": "形容由狹窄幽暗突然變得寬闊明亮。"},
+    {"word": "瞻前顧後", "hint": "形容做事謹慎周密，或猶豫不決。"},
+    {"word": "推陳出新", "hint": "排除舊的，提取新的。"},
+    {"word": "名列前茅", "hint": "形容成績優異，排在前面。"},
+    {"word": "Persevere", "hint": "To continue trying even when it is difficult."},
+    {"word": "Contribution", "hint": "Something that you do to help produce something."},
+    {"word": "Analyze", "hint": "To examine something carefully to understand it."},
+    {"word": "Courageous", "hint": "Being very brave in a difficult situation."},
+    {"word": "Responsibility", "hint": "The state of having a duty to deal with something."}
+  ]
+}
